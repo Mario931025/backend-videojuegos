@@ -1,6 +1,6 @@
 {
   "name": "meangback",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "poryecto backend GraphQl Mean",
   "main": "build/server.js",
   "scripts": {
