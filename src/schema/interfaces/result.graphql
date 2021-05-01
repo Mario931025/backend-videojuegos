@@ -1,0 +1,5 @@
+"Interface que especifica las propoedades obligatorias"
+interface Result{
+    status: Boolean!
+    message: String!
+}

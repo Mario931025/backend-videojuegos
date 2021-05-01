@@ -1,0 +1,7 @@
+type ResultUsers implements Result {
+    status: Boolean!
+    message: String! 
+    "Lista de usuarios registrados"
+    users: [User!]!
+
+}

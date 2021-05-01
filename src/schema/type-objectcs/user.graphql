@@ -1,0 +1,20 @@
+"email = usuario de la BD"
+
+type User {
+    "Identificador único"
+    id: ID!
+    "Nombre"
+    name: String!
+    "Apellidos"
+    lastname: String!
+    "Correo electronico"
+    email:String!
+    "password de la cuenta"
+    password: String!
+    "fecha de registro en la BD"
+    registerDate: String!
+    "fecha de nacimiento- Solo mayores de 18 años"
+    birthday: String!
+    "Permisos de usuario"
+    role: Role!
+}
